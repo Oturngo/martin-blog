@@ -1,0 +1,65 @@
+---
+title: '[Blog 打造全記錄] 1.建立部落格並部署到 Vercel 上'
+date: '2022-10-22'
+tags: ['Build Blog']
+draft: false
+summary: ''
+---
+
+## 取得 template
+
+Step 1. 在前一篇文章有提到我使用的樣板，連結在這 [timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)，先開啟連結。
+
+Step 2. 按下 **Use this template** 按鈕，會建立一個新的 Repository。
+
+    ![use-blog-template](/static/images/use-blog-template.png)
+
+Step 3. 輸入自己想要的 Repository name，例如：my-blog，確認好後就按下最下面的 **Create repository from template** 按鈕
+
+    ![create-repository-from-template](/static/images/create-repository-from-template.png)
+
+Step 4. Github 會自動幫你建立一個 repository，到目前為止你已經有一個 Blog 了，但你還需要進行部署到網站上，才能讓其他人看到你的 Blog。目前我自己知道的有像是**Netlify、Vercel、Github page** ，都可以免費使用靜態網站的 hosting 服務，而我是選擇 **Vercel。**
+
+    ![create-repository-complete](/static/images/create-repository-complete.png)
+
+---
+
+## 部署到 Vercel
+
+Step 1. 第一步就是要先到 Vercel 網站先進行註冊，我相信網路上滿多相關教學的，所以就不特別細講。
+
+Step 2. 按下右上角的 **Add New…** 按鈕，並點選 **Project**，或是直接選下方的 **Create a New Project** 按鈕
+
+    ![create-vervel-project](/static/images/create-vervel-project.png)
+
+Step 3. 接下來要準備 Import 你 Github 上的 repository，點選 **Continue with Github**
+
+    ![create-vervel-project](/static/images/create-vervel-project.png)
+
+Step 4. 此時會跳出一個彈跳視窗，這時候請選擇 **Only select repositories**
+
+    ![vercel-only-select-repositories](/static/images/vercel-only-select-repositories.png)
+
+Step 5. 接著點擊 Select repositories 的按鈕，按下去後會變成下拉式選單，在上面的欄位就輸入你 Blog 的 repository 名稱，然後點選它。
+
+    ![vercel-choose-repository](/static/images/vercel-choose-repository.png)
+
+Step 6. 接著按下最下面的 **Install** 按鈕
+
+    ![vercel-install-repository](/static/images/vercel-install-repository.png)
+
+Step 7. 過程中會請你輸入 Github 的密碼，完成後會出現這個畫面，可以看見剛剛選擇的 my-blog 出現在列表，這時候就按下 **import** 按鈕。
+
+    ![vercel-install-repository-complete](/static/images/vercel-install-repository-complete.png)
+
+Step 8. 此時需要進行相關的設定，這部分就看你 Project Name 有沒有想要修改，若沒有就按下最下面的 **Deploy** 按鈕。
+
+    ![vercel-configure-project](/static/images/vercel-configure-project.png)
+
+Step 9. 開始部署…
+
+    ![vercel-project-deploying](/static/images/vercel-project-deploying.png)
+
+Step 10. 部署完成，你的 Blog 成功上線了，點擊左邊的網頁截圖畫面，就可以開啟你的 Blog 網站囉。
+
+    ![vercel-project-deploy-complete](/static/images/vercel-project-deploy-complete.png)
