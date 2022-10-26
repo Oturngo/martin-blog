@@ -9,8 +9,6 @@ linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Hello 我是 Martin。
+Hi, 我是 Martin，2019 年從網通廠轉職開始進入前端領域，然後就開始不斷學習的旅程。
 
-前端工程師，個性內向，話不多。
-
-喜歡閱讀，更熱愛聽 Podcast，幾乎重度成癮。
+這個部落格除了紀錄部落格打造過程之外，也會分享技術文章、閱讀筆記和 Podcast 筆記等等。
